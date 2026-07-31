@@ -1,0 +1,19 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "mysticalagriculture:refined_obsidian_seeds",
+  "outputs": [
+    {
+      "item": {
+        "id": "mysticalagriculture:refined_obsidian_essence",
+        "count": 2
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:refined_obsidian"
+    }
+  ]
+}

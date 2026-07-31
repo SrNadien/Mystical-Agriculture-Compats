@@ -1,0 +1,19 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "mysticalagriculture:end_steel_seeds",
+  "outputs": [
+    {
+      "item": {
+        "id": "mysticalagriculture:end_steel_essence",
+        "count": 2
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:end_steel"
+    }
+  ]
+}

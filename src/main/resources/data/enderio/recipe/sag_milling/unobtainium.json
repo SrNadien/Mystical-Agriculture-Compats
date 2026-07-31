@@ -1,14 +1,12 @@
 {
   "type": "enderio:sag_milling",
   "energy": 2400,
-  "input": {
-    "item": "mysticalagriculture:unobtainium_seeds"
-  },
+  "input": "mysticalagriculture:unobtainium_seeds",
   "outputs": [
     {
       "item": {
-        "count": 2,
-        "id": "mysticalagriculture:unobtainium_essence"
+        "id": "mysticalagriculture:unobtainium_essence",
+        "count": 2
       }
     }
   ],

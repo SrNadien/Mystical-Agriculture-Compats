@@ -1,14 +1,12 @@
 {
   "type": "enderio:sag_milling",
   "energy": 2400,
-  "input": {
-    "item": "mysticalagriculture:andesite_alloy_seeds"
-  },
+  "input": "mysticalagriculture:andesite_alloy_seeds",
   "outputs": [
     {
       "item": {
-        "count": 2,
-        "id": "mysticalagriculture:andesite_alloy_essence"
+        "id": "mysticalagriculture:andesite_alloy_essence",
+        "count": 2
       }
     }
   ],

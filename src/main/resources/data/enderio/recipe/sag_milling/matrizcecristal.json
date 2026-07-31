@@ -1,14 +1,12 @@
 {
   "type": "enderio:sag_milling",
   "energy": 2400,
-  "input": {
-    "item": "mysticalagriculture:predicciondematrix_seeds"
-  },
+  "input": "mysticalagriculture:predicciondematrix_seeds",
   "outputs": [
     {
       "item": {
-        "count": 2,
-        "id": "mysticalagriculture:predicciondematrix_essence"
+        "id": "mysticalagriculture:predicciondematrix_essence",
+        "count": 2
       }
     }
   ],

@@ -1,0 +1,19 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "mysticalagriculture:supremium_essence_esc_seeds",
+  "outputs": [
+    {
+      "item": {
+        "id": "mysticalagriculture:supremium_essence_esc_essence",
+        "count": 20
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalcustomization:supremium_essence_esc"
+    }
+  ]
+}

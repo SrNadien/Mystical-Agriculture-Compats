@@ -1,14 +1,12 @@
 {
   "type": "enderio:sag_milling",
   "energy": 2400,
-  "input": {
-    "item": "mysticalagriculture:flux_dust_seeds"
-  },
+  "input": "mysticalagriculture:flux_dust_seeds",
   "outputs": [
     {
       "item": {
-        "count": 2,
-        "id": "mysticalagriculture:flux_dust_essence"
+        "id": "mysticalagriculture:flux_dust_essence",
+        "count": 2
       }
     }
   ],

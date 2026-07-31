@@ -1,14 +1,12 @@
 {
   "type": "enderio:sag_milling",
   "energy": 2400,
-  "input": {
-    "item": "mysticalagriculture:neutronium_seeds"
-  },
+  "input": "mysticalagriculture:neutronium_seeds",
   "outputs": [
     {
       "item": {
-        "count": 2,
-        "id": "mysticalagriculture:neutronium_essence"
+        "id": "mysticalagriculture:neutronium_essence",
+        "count": 2
       }
     }
   ],

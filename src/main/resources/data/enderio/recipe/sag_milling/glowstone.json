@@ -1,0 +1,19 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "mysticalagriculture:glowstone_seeds",
+  "outputs": [
+    {
+      "item": {
+        "id": "mysticalagriculture:glowstone_essence",
+        "count": 2
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:glowstone"
+    }
+  ]
+}

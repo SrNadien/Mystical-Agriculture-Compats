@@ -1,0 +1,19 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "mysticalagriculture:grains_of_infinity_seeds",
+  "outputs": [
+    {
+      "item": {
+        "id": "mysticalagriculture:grains_of_infinity_essence",
+        "count": 2
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:grains_of_infinity"
+    }
+  ]
+}

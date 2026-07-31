@@ -1,0 +1,19 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "mysticalagriculture:manasteel_seeds",
+  "outputs": [
+    {
+      "item": {
+        "id": "mysticalagriculture:manasteel_essence",
+        "count": 2
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:manasteel"
+    }
+  ]
+}

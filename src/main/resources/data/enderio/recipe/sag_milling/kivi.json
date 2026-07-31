@@ -1,14 +1,12 @@
 {
   "type": "enderio:sag_milling",
   "energy": 2400,
-  "input": {
-    "item": "mysticalagriculture:kivi_seeds"
-  },
+  "input": "mysticalagriculture:kivi_seeds",
   "outputs": [
     {
       "item": {
-        "count": 2,
-        "id": "mysticalagriculture:kivi_essence"
+        "id": "mysticalagriculture:kivi_essence",
+        "count": 2
       }
     }
   ],

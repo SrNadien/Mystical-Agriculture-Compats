@@ -1,14 +1,12 @@
 {
   "type": "enderio:sag_milling",
   "energy": 2400,
-  "input": {
-    "item": "mysticalagriculture:allthemodium_seeds"
-  },
+  "input": "mysticalagriculture:allthemodium_seeds",
   "outputs": [
     {
       "item": {
-        "count": 20,
-        "id": "mysticalagriculture:allthemodium_essence"
+        "id": "mysticalagriculture:allthemodium_essence",
+        "count": 20
       }
     }
   ],

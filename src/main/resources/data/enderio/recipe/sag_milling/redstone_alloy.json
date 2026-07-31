@@ -1,0 +1,19 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "mysticalagriculture:redstone_alloy_seeds",
+  "outputs": [
+    {
+      "item": {
+        "id": "mysticalagriculture:redstone_alloy_essence",
+        "count": 2
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:redstone_alloy"
+    }
+  ]
+}

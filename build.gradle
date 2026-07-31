@@ -3,7 +3,7 @@ plugins {
     id 'eclipse'
     id 'idea'
     id 'maven-publish'
-    id 'net.neoforged.gradle.userdev' version '7.0.171'
+    id 'net.neoforged.gradle.userdev' version '7.1.20'
 }
 
 version = "${mcversion}-${mod_version}-${tag_lanzador}"
@@ -13,42 +13,33 @@ base {
 }
 
 // Mojang ships Java 21 to end users in 1.20.5+, so your mod should target Java 21.
-java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
 
 //minecraft.accessTransformers.file rootProject.file('src/main/resources/META-INF/accesstransformer.cfg')
 //minecraft.accessTransformers.entry public net.minecraft.client.Minecraft textureManager # textureManager
 
 runs {
-    // applies to all the run configs below
     configureEach {
-        // Recommended logging data for a userdev environment
         systemProperty 'forge.logging.markers', 'REGISTRIES'
-
-        // Recommended logging level for the console
         systemProperty 'forge.logging.console.level', 'debug'
-
-        //Limit ram usage for the dev environment to 4GB
-        jvmArgument '-Xmx2G'
-
         modSource project.sourceSets.main
     }
 
     client {
         // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-        systemProperty 'forge.enabledGameTestNamespaces', "${modid}"
+        systemProperty 'neoforge.enabledGameTestNamespaces', project.modid
     }
 
     server {
-        systemProperty 'forge.enabledGameTestNamespaces', "${modid}"
+        systemProperty 'neoforge.enabledGameTestNamespaces', project.modid
         argument '--nogui'
     }
 
-    data {
-        // example of overriding the workingDirectory set in configureEach above, uncomment if you want to use it
-        // workingDirectory project.file('run-data')
-
-        // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-        arguments.addAll '--mod', "${modid}", '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
+    gameTestServer {
+        systemProperty 'neoforge.enabledGameTestNamespaces', project.modid
+    }
+    clientData {
+       arguments.addAll '--mod', project.modid, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
     }
 }
 
@@ -78,25 +69,6 @@ dependencies {
     implementation "com.blakebr0.cucumber:Cucumber:${mcversion}-${cucumber_version}"
     implementation "com.blakebr0.mysticalagriculture:MysticalAgriculture:${mcversion}-${mystical_version}"
 }
-
-test {
-    enabled = false
-}
-
-jar {
-    manifest {
-        attributes([
-                "Specification-Title": archivesBaseName,
-                "Specification-Vendor": "${author}",
-                "Specification-Version": "1", // We are version 1 of ourselves
-                "Implementation-Title": archivesBaseName,
-                "Implementation-Version": "${version}",
-                "Implementation-Vendor" :"${author}",
-                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
-        ])
-    }
-}
-
 tasks.withType(ProcessResources).configureEach {
     var replaceProperties = [
             mcversion              : mcversion,
@@ -144,5 +116,5 @@ idea {
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
-    options.getRelease().set(21)
+    options.getRelease().set(25)
 }

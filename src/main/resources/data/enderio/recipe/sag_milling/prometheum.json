@@ -1,14 +1,12 @@
 {
   "type": "enderio:sag_milling",
   "energy": 2400,
-  "input": {
-    "item": "mysticalagriculture:prometheum_seeds"
-  },
+  "input": "mysticalagriculture:prometheum_seeds",
   "outputs": [
     {
       "item": {
-        "count": 2,
-        "id": "mysticalagriculture:prometheum_essence"
+        "id": "mysticalagriculture:prometheum_essence",
+        "count": 2
       }
     }
   ],

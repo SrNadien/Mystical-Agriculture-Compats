@@ -1,14 +1,12 @@
 {
   "type": "enderio:sag_milling",
   "energy": 2400,
-  "input": {
-    "item": "mysticalagriculture:sky_steel_seeds"
-  },
+  "input": "mysticalagriculture:sky_steel_seeds",
   "outputs": [
     {
       "item": {
-        "count": 2,
-        "id": "mysticalagriculture:sky_steel_essence"
+        "id": "mysticalagriculture:sky_steel_essence",
+        "count": 2
       }
     }
   ],

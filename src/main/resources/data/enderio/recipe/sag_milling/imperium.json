@@ -1,0 +1,19 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "mysticalagriculture:imperium_essence_seeds",
+  "outputs": [
+    {
+      "item": {
+        "id": "mysticalagriculture:imperium_essence_essence",
+        "count": 20
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalcustomization:imperium_essence"
+    }
+  ]
+}

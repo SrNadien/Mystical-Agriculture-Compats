@@ -1,0 +1,19 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "mysticalagriculture:sky_stone_seeds",
+  "outputs": [
+    {
+      "item": {
+        "id": "mysticalagriculture:sky_stone_essence",
+        "count": 2
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:sky_stone"
+    }
+  ]
+}

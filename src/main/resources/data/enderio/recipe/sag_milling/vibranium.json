@@ -1,14 +1,12 @@
 {
   "type": "enderio:sag_milling",
   "energy": 2400,
-  "input": {
-    "item": "mysticalagriculture:vibranium_seeds"
-  },
+  "input": "mysticalagriculture:vibranium_seeds",
   "outputs": [
     {
       "item": {
-        "count": 2,
-        "id": "mysticalagriculture:vibranium_essence"
+        "id": "mysticalagriculture:vibranium_essence",
+        "count": 2
       }
     }
   ],
