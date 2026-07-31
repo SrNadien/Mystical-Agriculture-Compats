@@ -1,0 +1,21 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:black_quartz_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:black_quartz_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalcustomization:black_quartz"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "actuallyadditions"
+    }
+  ]
+}

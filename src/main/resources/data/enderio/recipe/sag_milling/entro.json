@@ -1,0 +1,21 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": {
+    "item": "mysticalagriculture:entro_seeds"
+  },
+  "outputs": [
+    {
+      "item": {
+        "count": 20,
+        "id": "mysticalagriculture:entro_essence"
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalcustomization:entro"
+    }
+  ]
+}

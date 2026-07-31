@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:ghast_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:ghast_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:ghast"
+    }
+  ]
+}

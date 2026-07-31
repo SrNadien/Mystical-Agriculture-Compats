@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:dark_steel_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:dark_steel_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:dark_steel"
+    }
+  ]
+}

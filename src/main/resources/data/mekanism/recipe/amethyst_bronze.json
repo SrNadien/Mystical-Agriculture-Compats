@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:amethyst_bronze_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:amethyst_bronze_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:amethyst_bronze"
+    }
+  ]
+}

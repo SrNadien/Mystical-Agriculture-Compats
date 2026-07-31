@@ -1,0 +1,21 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": {
+    "item": "mysticalagriculture:andesite_alloy_seeds"
+  },
+  "outputs": [
+    {
+      "item": {
+        "count": 2,
+        "id": "mysticalagriculture:andesite_alloy_essence"
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalcustomization:andesite_alloy"
+    }
+  ]
+}

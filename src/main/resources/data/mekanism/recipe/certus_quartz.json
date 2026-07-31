@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:certus_quartz_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:certus_quartz_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:certus_quartz"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:end_steel_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:end_steel_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:end_steel"
+    }
+  ]
+}

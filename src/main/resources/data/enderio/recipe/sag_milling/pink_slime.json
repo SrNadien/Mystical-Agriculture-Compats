@@ -1,0 +1,21 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": {
+    "item": "mysticalagriculture:pink_slime_seeds"
+  },
+  "outputs": [
+    {
+      "item": {
+        "count": 2,
+        "id": "mysticalagriculture:pink_slime_essence"
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalcustomization:pink_slime"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:cow_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:cow_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:cow"
+    }
+  ]
+}

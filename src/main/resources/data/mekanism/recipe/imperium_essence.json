@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:imperium_essence_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:imperium_essence_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalcustomization:imperium_essence"
+    }
+  ]
+}

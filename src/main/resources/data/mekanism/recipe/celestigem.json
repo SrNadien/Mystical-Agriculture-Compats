@@ -1,0 +1,21 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:celestigem_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:celestigem_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalcustomization:celestigem"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "justdirethings"
+    }
+  ]
+}

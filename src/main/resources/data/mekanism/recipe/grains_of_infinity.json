@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:grains_of_infinity_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:grains_of_infinity_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:grains_of_infinity"
+    }
+  ]
+}

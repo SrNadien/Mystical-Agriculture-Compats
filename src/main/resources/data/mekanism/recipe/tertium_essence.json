@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:tertium_essence_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:tertium_essence_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalcustomization:tertium_essence"
+    }
+  ]
+}

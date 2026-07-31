@@ -1,0 +1,25 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": {
+    "item": "mysticalagriculture:blaze_gold_seeds"
+  },
+  "outputs": [
+    {
+      "item": {
+        "count": 2,
+        "id": "mysticalagriculture:blaze_gold_essence"
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalcustomization:blaze_gold"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "justdirethings"
+    }
+  ]
+}
