@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:nether_star_seeds"
+  },
+  "output": {
+    "count": 20,
+    "id": "mysticalagriculture:nether_star_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagradditions:nether_star"
+    }
+  ]
+}
