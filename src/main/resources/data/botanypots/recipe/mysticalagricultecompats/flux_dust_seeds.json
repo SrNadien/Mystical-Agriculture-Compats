@@ -1,0 +1,14 @@
+{
+  "type": "botanypotsmystical:mystical_crop",
+  "crop_id": "umc:flux_dust",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botanypotsmystical"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "umc:flux_dust"
+    }
+  ]
+}
