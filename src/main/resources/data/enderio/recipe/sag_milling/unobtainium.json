@@ -13,7 +13,7 @@
   "neoforge:conditions": [
     {
       "type": "mysticalagriculture:crop_enabled",
-      "crop": "umc:unobtainium"
+      "crop": "mysticalcustomization:unobtainium"
     }
   ]
 }

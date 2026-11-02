@@ -12,6 +12,10 @@
   ],
   "neoforge:conditions": [
     {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalextendedtier"
+    },
+    {
       "type": "mysticalagriculture:crop_enabled",
       "crop": "mysticalextendedtier:better_gold"
     }

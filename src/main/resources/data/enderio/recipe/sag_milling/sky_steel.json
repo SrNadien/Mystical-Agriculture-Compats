@@ -13,7 +13,7 @@
   "neoforge:conditions": [
     {
       "type": "mysticalagriculture:crop_enabled",
-      "crop": "umc:sky_steel"
+      "crop": "mysticalcustomization:sky_steel"
     }
   ]
 }

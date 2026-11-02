@@ -1,3 +1,9 @@
+## 2.0.7
+
+- Los cultivos custom vuelven a usar el namespace `mysticalcustomization:` (UMC solo existe en 1.21.1) y se quitan las recetas de semillas exclusivas de UMC.
+- Se quita el compat con Botany Pots (el addon `botanypotsmystical` solo existe para 1.21.1).
+- Las recetas de Sag Mill de Mystical Extended Tier (12) y Mystical Agradditions (4) cargan solo con `neoforge:mod_loaded` de su mod.
+
 ## 2.0.6
 
 - Quitada la dependencia opcional de Botany Pots - Mystical Agriculture Compat de la publicación a CurseForge: ese addon solo existe para 1.21.1.
