@@ -1,3 +1,7 @@
+## 2.0.6
+
+- Quitada la dependencia opcional de Botany Pots - Mystical Agriculture Compat de la publicación a CurseForge: ese addon solo existe para 1.21.1.
+
 ## 2.0.5
 
 - Corregido el slug de Botany Pots - Mystical Agriculture Compat en las dependencias opcionales de la publicación a CurseForge (la subida fallaba con el slug anterior).

@@ -110,8 +110,7 @@ jobs:
             {"slug":"mystical-agriculture","type":"requiredDependency"},
             {"slug":"ender-io","type":"optionalDependency"},
             {"slug":"mekanism","type":"optionalDependency"},
-            {"slug":"botany-pots","type":"optionalDependency"},
-            {"slug":"botany-pots-mystical-agriculture-compat","type":"optionalDependency"}
+            {"slug":"botany-pots","type":"optionalDependency"}
           ]'
 
           KNOWN_FILE="$RUNNER_TEMP/curseforge-game-versions.json"
