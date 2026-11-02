@@ -11,7 +11,7 @@
   "neoforge:conditions": [
     {
       "type": "mysticalagriculture:crop_enabled",
-      "crop": "mysticalcustomization:crystal_matrix"
+      "crop": "umc:crystal_matrix"
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:better_gold_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:better_gold_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalextendedtier:better_gold"
+    }
+  ]
+}

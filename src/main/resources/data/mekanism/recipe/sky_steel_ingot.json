@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:sky_steel_ingot_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:sky_steel_ingot_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "umc:sky_steel_ingot"
+    }
+  ]
+}

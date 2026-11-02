@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:thaumaturge_brass_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:thaumaturge_brass_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "umc:thaumaturge_brass"
+    }
+  ]
+}

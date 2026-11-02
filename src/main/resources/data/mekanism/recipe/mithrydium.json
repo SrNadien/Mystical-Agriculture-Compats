@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:mithrydium_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:mithrydium_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalextendedtier:mithrydium"
+    }
+  ]
+}

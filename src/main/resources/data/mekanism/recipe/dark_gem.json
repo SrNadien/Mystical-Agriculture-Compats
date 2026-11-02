@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:dark_gem_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:dark_gem_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "umc:dark_gem"
+    }
+  ]
+}

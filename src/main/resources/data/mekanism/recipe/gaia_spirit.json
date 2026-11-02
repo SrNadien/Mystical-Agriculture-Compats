@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:gaia_spirit_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:gaia_spirit_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagradditions:gaia_spirit"
+    }
+  ]
+}

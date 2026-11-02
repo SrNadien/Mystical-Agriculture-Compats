@@ -11,7 +11,7 @@
   "neoforge:conditions": [
     {
       "type": "mysticalagriculture:crop_enabled",
-      "crop": "mysticalcustomization:pink_slime"
+      "crop": "umc:pink_slime"
     }
   ]
 }
