@@ -1,3 +1,7 @@
+## 1.0.6
+
+- Compat con los nuevos cultivos de UMC `soul_dust` y `soulstone_cobble` en el Sag Mill (EnderIO), Enriching (Mekanism) y Botany Pots (ya son 64).
+
 ## 1.0.5
 
 - Compat con los 62 cultivos de UMC: añadidos azure_silver, crimson_iron, darkstone, unexplored_wood y las esencias lightium, ornium, ouranium y tornium al Sag Mill (EnderIO), Enriching (Mekanism) y Botany Pots.
