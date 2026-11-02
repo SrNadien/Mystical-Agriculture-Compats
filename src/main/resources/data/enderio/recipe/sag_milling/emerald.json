@@ -1,0 +1,21 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": {
+    "item": "mysticalagriculture:emerald_seeds"
+  },
+  "outputs": [
+    {
+      "item": {
+        "count": 2,
+        "id": "mysticalagriculture:emerald_essence"
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:emerald"
+    }
+  ]
+}

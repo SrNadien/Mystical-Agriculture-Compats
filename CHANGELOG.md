@@ -1,3 +1,7 @@
+## 1.0.4
+
+- Añadidas al Sag Mill (EnderIO) las recetas de los cultivos base de Mystical Agriculture que faltaban (136), con el mismo formato que las demás.
+
 ## 1.0.3
 
 - Corregido el slug de Botany Pots - Mystical Agriculture Compat en las dependencias opcionales de la publicación a CurseForge (la subida fallaba con el slug anterior).

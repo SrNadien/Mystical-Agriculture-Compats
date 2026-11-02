@@ -1,0 +1,21 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": {
+    "item": "mysticalagriculture:certus_quartz_seeds"
+  },
+  "outputs": [
+    {
+      "item": {
+        "count": 2,
+        "id": "mysticalagriculture:certus_quartz_essence"
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:certus_quartz"
+    }
+  ]
+}
