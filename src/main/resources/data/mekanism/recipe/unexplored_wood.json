@@ -2,16 +2,16 @@
   "type": "mekanism:enriching",
   "input": {
     "count": 1,
-    "item": "mysticalagriculture:sky_steel_seeds"
+    "item": "mysticalagriculture:unexplored_wood_seeds"
   },
   "output": {
     "count": 2,
-    "id": "mysticalagriculture:sky_steel_essence"
+    "id": "mysticalagriculture:unexplored_wood_essence"
   },
   "neoforge:conditions": [
     {
       "type": "mysticalagriculture:crop_enabled",
-      "crop": "umc:sky_steel"
+      "crop": "umc:unexplored_wood"
     }
   ]
 }

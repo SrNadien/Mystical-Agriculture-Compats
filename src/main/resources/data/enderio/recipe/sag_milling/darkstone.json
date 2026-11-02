@@ -2,20 +2,20 @@
   "type": "enderio:sag_milling",
   "energy": 2400,
   "input": {
-    "item": "mysticalagriculture:sky_steel_seeds"
+    "item": "mysticalagriculture:darkstone_seeds"
   },
   "outputs": [
     {
       "item": {
         "count": 2,
-        "id": "mysticalagriculture:sky_steel_essence"
+        "id": "mysticalagriculture:darkstone_essence"
       }
     }
   ],
   "neoforge:conditions": [
     {
       "type": "mysticalagriculture:crop_enabled",
-      "crop": "umc:sky_steel"
+      "crop": "umc:darkstone"
     }
   ]
 }

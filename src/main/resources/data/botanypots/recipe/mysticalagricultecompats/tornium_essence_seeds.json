@@ -1,0 +1,14 @@
+{
+  "type": "botanypotsmystical:mystical_crop",
+  "crop_id": "umc:tornium_essence",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botanypotsmystical"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "umc:tornium_essence"
+    }
+  ]
+}

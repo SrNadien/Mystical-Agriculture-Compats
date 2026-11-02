@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:azure_silver_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:azure_silver_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "umc:azure_silver"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:lightium_essence_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:lightium_essence_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "umc:lightium_essence"
+    }
+  ]
+}

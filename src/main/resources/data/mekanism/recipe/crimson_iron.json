@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:crimson_iron_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:crimson_iron_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "umc:crimson_iron"
+    }
+  ]
+}

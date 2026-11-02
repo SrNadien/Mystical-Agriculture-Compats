@@ -4,6 +4,10 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
+      "modid": "mysticalextendedtier"
+    },
+    {
+      "type": "neoforge:mod_loaded",
       "modid": "botanypotsmystical"
     },
     {
