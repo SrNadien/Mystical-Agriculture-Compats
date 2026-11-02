@@ -1,3 +1,7 @@
+## 2.0.5
+
+- Corregido el slug de Botany Pots - Mystical Agriculture Compat en las dependencias opcionales de la publicación a CurseForge (la subida fallaba con el slug anterior).
+
 ## 2.0.4
 
 - Añadido el paso de publicación a CurseForge al workflow: marca la versión de Minecraft, NeoForge, Java 25, cliente y servidor, requiere Mystical Agriculture y deja EnderIO, Mekanism y Botany Pots como dependencias opcionales.
