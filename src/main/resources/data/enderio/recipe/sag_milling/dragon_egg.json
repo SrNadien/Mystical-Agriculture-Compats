@@ -1,0 +1,19 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "mysticalagriculture:dragon_egg_seeds",
+  "outputs": [
+    {
+      "item": {
+        "id": "mysticalagriculture:dragon_egg_essence",
+        "count": 2
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagradditions:dragon_egg"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "mysticalagriculture:source_gem_seeds",
+  "outputs": [
+    {
+      "item": {
+        "id": "mysticalagriculture:source_gem_essence",
+        "count": 2
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "umc:source_gem"
+    }
+  ]
+}

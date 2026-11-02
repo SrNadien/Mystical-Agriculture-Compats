@@ -1,0 +1,19 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "mysticalagriculture:eclipse_alloy_seeds",
+  "outputs": [
+    {
+      "item": {
+        "id": "mysticalagriculture:eclipse_alloy_essence",
+        "count": 2
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "umc:eclipse_alloy"
+    }
+  ]
+}

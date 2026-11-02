@@ -1,0 +1,19 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "mysticalagriculture:awakened_draconium_seeds",
+  "outputs": [
+    {
+      "item": {
+        "id": "mysticalagriculture:awakened_draconium_essence",
+        "count": 2
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagradditions:awakened_draconium"
+    }
+  ]
+}
