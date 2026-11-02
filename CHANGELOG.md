@@ -1,3 +1,7 @@
+## 2.0.4
+
+- Añadido el paso de publicación a CurseForge al workflow: marca la versión de Minecraft, NeoForge, Java 25, cliente y servidor, requiere Mystical Agriculture y deja EnderIO, Mekanism y Botany Pots como dependencias opcionales.
+
 ## 2.0.3
 
 - Compat con Botany Pots: 66 recetas `botanypotsmystical:mystical_crop` (54 cultivos de UMC y 12 de Mystical Extended Tier), cargadas solo si `botanypotsmystical` está presente y el cultivo activo.
