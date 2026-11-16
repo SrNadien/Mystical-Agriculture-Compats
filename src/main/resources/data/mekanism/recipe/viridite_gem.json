@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:viridite_gem_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:viridite_gem_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "umc:viridite_gem"
+    }
+  ]
+}

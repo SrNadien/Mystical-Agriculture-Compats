@@ -1,6 +1,6 @@
 {
   "type": "botanypotsmystical:mystical_crop",
-  "crop_id": "umc:elevatium_ingot",
+  "crop_id": "umc:viridite_gem",
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
@@ -8,7 +8,7 @@
     },
     {
       "type": "mysticalagriculture:crop_enabled",
-      "crop": "umc:elevatium_ingot"
+      "crop": "umc:viridite_gem"
     }
   ]
 }

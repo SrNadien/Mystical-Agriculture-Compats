@@ -1,3 +1,9 @@
+## 1.0.7
+
+- Compat con los 12 cultivos nuevos de UMC basados en ítems de UltimateArmoury (`amberite_ingot`, `infernium_ingot`, `tenebrite_ingot`, `umbrite_ingot`, `ionite_ingot`, `gorium_ingot`, `luminite_ingot`, `osmirite_ingot`, `viridite_gem`, `lustrous_dust`, `pyrestone_crystal` y `aurelite_crystal`) en el Sag Mill (EnderIO), Enriching (Mekanism) y Botany Pots.
+- Añadidas las recetas de los cultivos del catálogo de UMC que faltaban: `bedrockium_ingot`, `demon_ingot`, `enchanted_ingot`, `entro_ingot`, `evil_infused_iron_ingot`, `glass`, `quantum_alloy`, `quantum_infused_dust` y `unstable_ingot`.
+- El cultivo `elevatium_ingot` pasa a llamarse `ascendium_ingot`, igual que su ítem de UltimateArmoury.
+
 ## 1.0.6
 
 - Compat con los nuevos cultivos de UMC `soul_dust` y `soulstone_cobble` en el Sag Mill (EnderIO), Enriching (Mekanism) y Botany Pots (ya son 64).

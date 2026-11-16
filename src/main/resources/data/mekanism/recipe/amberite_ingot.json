@@ -2,16 +2,16 @@
   "type": "mekanism:enriching",
   "input": {
     "count": 1,
-    "item": "mysticalagriculture:elevatium_ingot_seeds"
+    "item": "mysticalagriculture:amberite_ingot_seeds"
   },
   "output": {
     "count": 2,
-    "id": "mysticalagriculture:elevatium_ingot_essence"
+    "id": "mysticalagriculture:amberite_ingot_essence"
   },
   "neoforge:conditions": [
     {
       "type": "mysticalagriculture:crop_enabled",
-      "crop": "umc:elevatium_ingot"
+      "crop": "umc:amberite_ingot"
     }
   ]
 }

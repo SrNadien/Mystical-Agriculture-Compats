@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "mysticalagriculture:osmirite_ingot_seeds"
+  },
+  "output": {
+    "count": 2,
+    "id": "mysticalagriculture:osmirite_ingot_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "umc:osmirite_ingot"
+    }
+  ]
+}
