@@ -1,0 +1,19 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "mysticalagriculture:gorium_ingot_seeds",
+  "outputs": [
+    {
+      "item": {
+        "id": "mysticalagriculture:gorium_ingot_essence",
+        "count": 2
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalcustomization:gorium_ingot"
+    }
+  ]
+}

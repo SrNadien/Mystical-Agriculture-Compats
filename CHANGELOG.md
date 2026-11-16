@@ -1,3 +1,8 @@
+## 2.0.8
+
+- Sag Mill (EnderIO) para los cultivos nuevos basados en ítems de UltimateArmoury (`amberite_ingot`, `infernium_ingot`, `tenebrite_ingot`, `umbrite_ingot`, `ionite_ingot`, `ascendium_ingot`, `gorium_ingot`, `luminite_ingot`, `osmirite_ingot`, `viridite_gem`, `lustrous_dust`, `pyrestone_crystal` y `aurelite_crystal`), con el namespace `mysticalcustomization:`.
+- Añadidas las recetas de Sag Mill de `bedrockium_ingot`, `demon_ingot`, `enchanted_ingot`, `entro_ingot`, `evil_infused_iron_ingot`, `glass`, `quantum_alloy`, `quantum_infused_dust` y `unstable_ingot`.
+
 ## 2.0.7
 
 - Los cultivos custom vuelven a usar el namespace `mysticalcustomization:` (UMC solo existe en 1.21.1) y se quitan las recetas de semillas exclusivas de UMC.

@@ -1,0 +1,19 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "mysticalagriculture:infernium_ingot_seeds",
+  "outputs": [
+    {
+      "item": {
+        "id": "mysticalagriculture:infernium_ingot_essence",
+        "count": 2
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalcustomization:infernium_ingot"
+    }
+  ]
+}

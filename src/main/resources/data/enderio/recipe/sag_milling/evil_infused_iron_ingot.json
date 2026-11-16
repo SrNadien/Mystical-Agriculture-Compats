@@ -1,0 +1,19 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "mysticalagriculture:evil_infused_iron_ingot_seeds",
+  "outputs": [
+    {
+      "item": {
+        "id": "mysticalagriculture:evil_infused_iron_ingot_essence",
+        "count": 2
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalcustomization:evil_infused_iron_ingot"
+    }
+  ]
+}

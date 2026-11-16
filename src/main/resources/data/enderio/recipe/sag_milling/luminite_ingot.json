@@ -1,0 +1,19 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "mysticalagriculture:luminite_ingot_seeds",
+  "outputs": [
+    {
+      "item": {
+        "id": "mysticalagriculture:luminite_ingot_essence",
+        "count": 2
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalcustomization:luminite_ingot"
+    }
+  ]
+}
